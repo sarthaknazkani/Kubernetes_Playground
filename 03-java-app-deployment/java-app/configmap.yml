@@ -7,7 +7,7 @@ data:
   application.properties: |
     # database init, supports mysql too
     database=mysql
-    spring.datasource.url=jdbc:mysql://mysql-service.pet-clinic-db.svc.cluster.local:3306/petclinic
+    spring.datasource.url=jdbc:mysql://mysql-service.dev.svc.cluster.local:3306/petclinic
     spring.datasource.username=${DB_USERNAME}
     spring.datasource.password=${DB_PASSWORD}
     # SQL is written to be idempotent so this is safe
