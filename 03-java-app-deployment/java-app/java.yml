@@ -75,7 +75,7 @@ metadata:
 spec:
   selector:
     app: java-app
-  type: NodePort
+  type: LoadBalancer
   ports:
   - protocol: TCP
     port: 8080
